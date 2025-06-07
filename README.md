@@ -19,11 +19,11 @@ public:
     }
 
     void showHobbies() {
-        cout << "🎯 When I'm not coding, I'm probably during flight, gaming or playing basketball!" << endl;
+        cout << "🎯 When I'm not coding, I'm probably during a flight, gaming or playing basketball!" << endl;
     }
 
     void currentFocus() {
-        cout << "🚀 Right now, I'm building school projects, and my personal portfolio :))" << endl;
+        cout << "🚀 Right now, I'm building school projects &  my personal portfolio :))" << endl;
     }
 
     void funFact() {
