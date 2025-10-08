@@ -15,7 +15,7 @@ public:
     }
 
     void listLanguages() {
-        cout << "💻 I code mainly in: C, C++, Python" << endl;
+        cout << "💻 I code in: C, C++, Java & Python" << endl;
     }
 
     void showHobbies() {
@@ -27,7 +27,7 @@ public:
     }
 
     void funFact() {
-        cout << "💡 Fun fact: I swear my cat knows more about debugging than I do 🐈" << endl;
+        cout << "💡 Fun fact: my cat hates me for debugging stuff out loud lol" << endl;
     }
 };
 
