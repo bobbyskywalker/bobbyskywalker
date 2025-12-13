@@ -1,48 +1,37 @@
 ### About Me 🤓
 
-```c++
-#include <iostream>
-#include <vector>
-#include <string>
+```go
+package main
 
-using namespace std;
+import "fmt"
 
-class bobbyskywalker {
-public:
-    void introduce() {
-        cout << "Hi there 👋 I'm Olek!" << endl;
-        cout << "I'm a Software Developer from Poland currently studying at 42 Warsaw 🇵🇱🎓" << endl;
-    }
+type bobbyskywalker struct{}
 
-    void listLanguages() {
-        cout << "💻 I code in: C, C++, Java & Python" << endl;
-    }
+func (b bobbyskywalker) introduce() {
+	fmt.Println("Hi there 👋 I'm Olek!")
+	fmt.Println("I'm a Software Developer from Poland currently studying at 42 Warsaw 🇵🇱🎓")
+}
 
-    void showHobbies() {
-        cout << "🎯 When I'm not coding, I'm probably during a flight, gaming or playing basketball!" << endl;
-    }
+func (b bobbyskywalker) listLanguages() {
+	fmt.Println("💻 I code in: C, C++, Go, Java & Python)
+}
 
-    void currentFocus() {
-        cout << "🚀 Right now, I'm building school projects &  my personal portfolio :))" << endl;
-    }
+func (b bobbyskywalker) showHobbies() {
+	fmt.Println("🎯 When I'm not coding, I'm probably during a flight, gaming or playing basketball!")
+}
 
-    void funFact() {
-        cout << "💡 Fun fact: my cat hates me for debugging stuff out loud lol" << endl;
-    }
-};
+func (b bobbyskywalker) funFact() {
+	fmt.Println("💡 Fun fact: my cat hates me for debugging stuff out loud lol")
+}
 
-int main() {
-    bobbyskywalker me;
-    me.introduce();
-    me.listLanguages();
-    me.showHobbies();
-    me.currentFocus();
-    me.funFact();
-
-    return 0;
+func main() {
+	me := bobbyskywalker{}
+	me.introduce()
+	me.listLanguages()
+	me.showHobbies()
+	me.funFact()
 }
 ```
-
 ### 👨‍💻 Want to connect?
 
 LinkedIn: https://www.linkedin.com/in/aleksander-garbacz-6495522a4/
