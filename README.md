@@ -1,4 +1,6 @@
-### About Me
+### about me
+
+currently doing first steps in embedded: https://github.com/bobbyskywalker/AION-ZERO
 
 ```go
 package main
