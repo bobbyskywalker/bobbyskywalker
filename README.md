@@ -8,17 +8,17 @@ import "fmt"
 type bobbyskywalker struct{}
 
 func (b bobbyskywalker) introduce() {
-	fmt.Println("Hi there, I'm Olek")
-	fmt.Println("Software Developer from Poland 🇵🇱")
-	fmt.Println("42 Warsaw Alumni 🎓")
+	fmt.Println("hi, my name is Olek")
+	fmt.Println("i am a dev from Poland 🇵🇱")
+	fmt.Println("also a 42 Warsaw Alumni 🎓")
 }
 
 func (b bobbyskywalker) listLanguages() {
-	fmt.Println("I code professionally in Java, though I am keen especially on: C, C++ & Go)
+	fmt.Println("i code professionally in Java, though I am keen especially on: C, C++ & Go")
 }
 
 func (b bobbyskywalker) showHobbies() {
-	fmt.Println("I love basketball and retro games")
+	fmt.Println("i love basketball and retro games")
 }
 
 func main() {
